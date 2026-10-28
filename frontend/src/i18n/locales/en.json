@@ -1,0 +1,601 @@
+{
+  "brand": {
+    "name": "Samanvay",
+    "subtitle": "Complaint Monitoring",
+    "logoAlt": "Samanvay"
+  },
+  "language": {
+    "label": "Language"
+  },
+  "layout": {
+    "govStrip": "Government of India · Ministry of Education · All India Council for Technical Education",
+    "tagline": "One window · No duplicate action · Timely redressal",
+    "toggleNavigation": "Toggle navigation",
+    "nav": {
+      "home": "Home",
+      "about": "About",
+      "howItWorks": "How It Works",
+      "track": "Track Complaint",
+      "contact": "Contact",
+      "officerLogin": "Officer Login"
+    },
+    "footer": {
+      "government": "Government of India",
+      "blurb": "Samanvay brings institution-related complaints together for transparent governance, coordinated action, and timely redressal.",
+      "quickLinks": "Quick links",
+      "home": "Home",
+      "aboutSystem": "About the system",
+      "howItWorks": "How it works",
+      "trackComplaint": "Track complaint",
+      "officerLogin": "Officer login",
+      "governmentResources": "Government resources",
+      "indiaGov": "India.gov.in",
+      "ministryOfEducation": "Ministry of Education",
+      "myGov": "MyGov",
+      "openData": "Open Data Portal",
+      "services": "Samanvay services",
+      "publicTracker": "Public complaint tracker",
+      "officerAccess": "Authorized officer access",
+      "bureausAndCells": "Bureaus and cells",
+      "coordinationProcess": "Coordination process",
+      "copyright": "© 2026 All India Council for Technical Education, Government of India. All rights reserved.",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "accessibility": "Accessibility",
+      "siteMap": "Site Map"
+    }
+  },
+  "bureau": {
+    "RB": "Regulation Bureau",
+    "PGRC": "Public Grievance Redressal Cell",
+    "Regional": "Regional Office",
+    "Admin": "AICTE Headquarters"
+  },
+  "caseStatus": {
+    "Pending": "Pending",
+    "Under Process": "Under process",
+    "Disposed": "Disposed",
+    "Transferred": "Transferred",
+    "Escalated": "Escalated"
+  },
+  "caseCategory": {
+    "Fees": "Fees",
+    "Accreditation": "Accreditation",
+    "Infrastructure": "Infrastructure",
+    "Faculty": "Faculty",
+    "Admission": "Admission",
+    "Examination": "Examination",
+    "Harassment": "Harassment",
+    "Other": "Other"
+  },
+  "home": {
+    "hero": {
+      "titleLines": [
+        "One window for every",
+        "complaint about an",
+        "institution"
+      ],
+      "lead": "AICTE receives complaints through the Regulation Bureau, the Public Grievance Redressal Cell and Regional Offices. This system brings them together, spots when bureaus are working on the same institution, and helps them coordinate.",
+      "trackCta": "Track your complaint",
+      "howItWorksCta": "How it works",
+      "exampleLabel": "Example of two linked complaint cases",
+      "linkedNote": "Linked as a possible overlap",
+      "caption": "Two bureaus, one institution. Flagged before anyone duplicates the work."
+    },
+    "stats": {
+      "received": "Complaints received this year",
+      "disposed": "Cases disposed",
+      "bureaus": "Bureaus and cells connected",
+      "overlaps": "Overlaps sent for coordination"
+    },
+    "highlights": {
+      "eyebrow": "A clearer way to coordinate",
+      "title": "Built around the work officials do every day.",
+      "lead": "Samanvay connects the right information at the right moment, without taking decisions away from authorized officers.",
+      "learnMore": "Learn more",
+      "trustedRecordTitle": "One trusted record",
+      "trustedRecordText": "Every bureau sees the same institution profile, case status, officer ownership, and next action.",
+      "matchingTitle": "Explainable matching",
+      "matchingText": "Names, categories, meaning, and timing are combined into a clear match explanation.",
+      "timelinesTitle": "Timelines that stay visible",
+      "timelinesText": "SLA reminders and escalation signals help teams act before a case becomes delayed.",
+      "bandEyebrow": "Across every connected cell",
+      "bandTitle": "One coordinated response for every institution.",
+      "chain": [
+        "RB",
+        "PGRC",
+        "Regional Offices",
+        "Senior Management"
+      ]
+    },
+    "explainer": {
+      "eyebrow": "Explainable overlap alerts",
+      "title": "Different words, same problem. The system shows why.",
+      "lead": "Matching compares what complaints mean, not only their keywords. Every alert lists its reasons so an official can check it in seconds.",
+      "alertTitle": "Potential Overlapping Cases · Coordination Required",
+      "linkedBecause": "Linked because:",
+      "reasons": [
+        "Same institution (AICTE Permanent ID)",
+        "Same category: Fees",
+        "78% similar complaint text",
+        "Raised 6 days apart"
+      ],
+      "decision": "Suggested link only. An official decides whether to coordinate and which bureau leads.",
+      "institutionAsWritten": "Institution as written:",
+      "rbComplaint": "College is collecting extra donation.",
+      "pgrcComplaint": "Students forced to pay beyond approved fees."
+    },
+    "assistant": {
+      "eyebrow": "Samanvay Assistant",
+      "title": "Ask in plain language. Get an answer straight away.",
+      "lead": "Students, parents and faculty can ask about a complaint at any hour, without waiting on a helpline.",
+      "capabilities": [
+        "Check a complaint status with its case ID",
+        "See how a college name or short form is recognised",
+        "Understand why two cases were linked",
+        "Learn who can see your complaint"
+      ],
+      "openCta": "Chat with the assistant",
+      "tryAsking": "Try asking",
+      "sampleQuestions": [
+        "Status of CMP-2024-0005",
+        "Is SVIT the same as Swami Vivekanand Inst of Tech?",
+        "Does the AI close cases on its own?"
+      ]
+    },
+    "trust": {
+      "eyebrow": "Security and trust",
+      "title": "Built for decisions that officials can stand behind.",
+      "roleTitle": "Access by role",
+      "roleText": "RB, PGRC, Regional and Senior Management officers each see only what their role allows.",
+      "auditTitle": "Every action recorded",
+      "auditText": "Transfers, escalations, links and remarks are kept in an audit trail with the officer and time.",
+      "qualityTitle": "Matching quality measured",
+      "qualityText": "On a labelled test set, {{precision}} of flagged pairs were real overlaps (precision) and {{recall}} of real overlaps were flagged (recall).",
+      "decideTitle": "Officials decide",
+      "decideText": "The system suggests links. Nothing is closed or merged automatically."
+    },
+    "outcomes": {
+      "eyebrow": "What changes for AICTE",
+      "title": "One shared view for every bureau.",
+      "lead": "Every action is traceable, every match is explainable, and officials always decide the next step.",
+      "officerLogin": "Officer login",
+      "items": [
+        "Less duplicated work between bureaus",
+        "No conflicting actions on the same institution",
+        "Faster complaint disposal",
+        "Clear accountability for every case",
+        "One source of truth for AICTE management"
+      ]
+    }
+  },
+  "about": {
+    "eyebrow": "About / Department",
+    "title": "About the Complaint Monitoring System",
+    "lead": "AICTE regulates technical education in India. Complaints about institutions reach different bureaus, each with its own records. This system gives authorized officials one place to see every case, who is handling it, and where actions overlap.",
+    "visionTitle": "Our Vision",
+    "visionText": "Fair, timely and transparent redressal of grievances about technical institutions.",
+    "missionTitle": "Our Mission",
+    "missionText": "Give every bureau one shared, trusted view of each institution and its cases.",
+    "valuesTitle": "Our Values",
+    "valuesText": "Transparency, accountability, coordination and citizen-centric service.",
+    "bureausHeading": "Bureaus and cells connected",
+    "rbCode": "RB",
+    "rbText": "Approvals, compliance and regulatory action on institutions.",
+    "pgrcCode": "PGRC",
+    "pgrcText": "Receives and resolves grievances from students, faculty and the public.",
+    "roCode": "RO",
+    "roTitle": "Regional Offices",
+    "roText": "Field-level verification and follow-up in each region.",
+    "otherCode": "Other",
+    "otherTitle": "Other Bureaus and Cells",
+    "otherText": "Cells brought in when a case needs their expertise.",
+    "glanceHeading": "System at a glance",
+    "casesThisYear": "Cases this year",
+    "institutionsCovered": "Institutions covered",
+    "matchedAutomatically": "Matched automatically",
+    "overlapsFlagged": "Overlaps flagged",
+    "glanceNote": "The system suggests links. Officials always decide the action."
+  },
+  "howItWorks": {
+    "eyebrow": "How It Works",
+    "title": "From complaint to closure, without duplicated work",
+    "lead": "Every complaint follows the same path, so every bureau sees the same facts.",
+    "steps": {
+      "receivedTitle": "Complaint received",
+      "receivedText": "From students, faculty or the public, at any bureau.",
+      "identifiedTitle": "Institution identified",
+      "identifiedText": "Name cleaned and matched to the AICTE Permanent ID.",
+      "registeredTitle": "Case registered",
+      "registeredText": "Unique case ID, category, bureau and officer assigned.",
+      "overlapTitle": "Overlap check",
+      "overlapText": "Other bureaus' open cases on the same institution are compared.",
+      "coordinationTitle": "Coordination",
+      "coordinationText": "Link cases, choose a lead bureau, share notes.",
+      "monitoringTitle": "Action and monitoring",
+      "monitoringText": "Timelines tracked, alerts and escalation sent.",
+      "disposalTitle": "Disposal and reports",
+      "disposalText": "Closure recorded, reports generated."
+    },
+    "supportHeading": "How the system supports each stage",
+    "supports": {
+      "profileTitle": "One institution profile",
+      "profileText": "All cases for a college in one place.",
+      "matchingTitle": "Smart name matching",
+      "matchingText": "Handles spellings and abbreviations.",
+      "overlapTitle": "Overlap detection",
+      "overlapText": "Compares meaning, category and dates.",
+      "workspaceTitle": "Coordination workspace",
+      "workspaceText": "Lead bureau and shared notes.",
+      "alertsTitle": "Timeline alerts",
+      "alertsText": "Reminders before deadlines.",
+      "reportsTitle": "Reports and analytics",
+      "reportsText": "Bureau, region and institution views."
+    },
+    "chain": [
+      "Regulation Bureau",
+      "PGRC",
+      "Regional Offices",
+      "Other Cells",
+      "Senior Management"
+    ]
+  },
+  "track": {
+    "eyebrow": "Public Complaint Tracker",
+    "title": "Track your complaint",
+    "lead": "Enter your case ID to see its current status.",
+    "inputLabel": "Case ID",
+    "submit": "Track status",
+    "handledBy": "Handled by",
+    "receivedOn": "Received on",
+    "expectedDisposal": "Expected disposal",
+    "progress": "Progress",
+    "steps": {
+      "received": "Complaint received",
+      "registered": "Registered and assigned to {{bureau}}",
+      "review": "Under review by the officer",
+      "closure": "Decision and closure",
+      "closureWithNote": "Decision and closure: {{note}}"
+    },
+    "inProgress": "In progress",
+    "expectedBy": "Expected by {{date}}",
+    "notFoundTitle": "We could not find {{caseId}}",
+    "notFoundText": "Check the case ID on your acknowledgement. It looks like CMP-2024-0002. If you have lost it, contact the helpdesk with your name, the institution and the date you complained.",
+    "whatYouSeeTitle": "What you will see",
+    "whatYouSeeText": "Status, the bureau handling your case and the expected date. Internal coordination notes between bureaus are visible only to officials.",
+    "needHelpTitle": "Need help?",
+    "needHelpText": "Email {{email}} or call {{phone}}. Keep your case ID safe. You will need it for every enquiry."
+  },
+  "assistant": {
+    "ui": {
+      "dialogLabel": "Samanvay assistant",
+      "title": "Samanvay Assistant",
+      "subtitle": "Answers about complaints, bureaus and your data",
+      "close": "Close assistant",
+      "typing": "Assistant is typing",
+      "placeholder": "Ask a question or enter a case ID",
+      "inputLabel": "Message the assistant",
+      "send": "Send",
+      "launcher": "Ask Samanvay",
+      "launcherClose": "Close"
+    },
+    "starterQuestions": [
+      "Track my complaint",
+      "How are overlapping cases found?",
+      "Who can see my complaint?",
+      "Does the AI close cases on its own?"
+    ],
+    "fallback": "I did not catch that. I can help with complaint status, how cases are matched across bureaus, and how your data is protected. Try one of these:",
+    "caseStatus": {
+      "summary": "{{caseId}} ({{category}}) is {{status}}. It concerns {{institution}}.",
+      "handledBy": "Handled by: {{value}}",
+      "receivedOn": "Received on: {{value}}",
+      "latestStep": "Latest step: {{value}}",
+      "expectedDisposal": "Expected disposal: {{value}}",
+      "timelineLink": "See the full timeline",
+      "notFound": "I could not find {{caseId}}. Check the ID on your acknowledgement. It looks like CMP-2024-0002.",
+      "suggestions": [
+        "How long does disposal take?",
+        "Who can see my complaint?"
+      ],
+      "notFoundSuggestions": [
+        "How do I file a complaint?",
+        "Contact the helpdesk"
+      ]
+    },
+    "institution": {
+      "single": "\"{{name}}\" is recognised as {{institution}}. Every complaint that uses any of its names is tied to the same AICTE profile.",
+      "multiple": "Yes. {{names}} refer to the same institution, {{institution}}. Every complaint that uses any of its names is tied to one AICTE profile.",
+      "and": "and",
+      "aicteId": "AICTE Permanent ID: {{value}}",
+      "location": "Location: {{value}}",
+      "alsoWrittenAs": "Also written as: {{value}}",
+      "suggestions": [
+        "How are overlapping cases found?",
+        "Track my complaint"
+      ]
+    },
+    "linkLabels": {
+      "tracker": "Open the complaint tracker",
+      "about": "About the system",
+      "howItWorks": "How it works",
+      "bureaus": "Bureaus and cells",
+      "officerLogin": "Officer login"
+    },
+    "intents": {
+      "track": {
+        "triggers": [
+          "track",
+          "status",
+          "where is my complaint",
+          "progress",
+          "case id",
+          "update on my complaint"
+        ],
+        "text": "Type your case ID here and I will look it up. You will find it on the acknowledgement you received, for example CMP-2024-0002.",
+        "details": [],
+        "suggestions": [
+          "Status of CMP-2024-0002",
+          "Status of CMP-2024-0005",
+          "I lost my case ID"
+        ]
+      },
+      "lostCaseId": {
+        "triggers": [
+          "lost my case id",
+          "forgot",
+          "no case id",
+          "lost"
+        ],
+        "text": "Contact the AICTE helpdesk with your name, the institution and the date you complained. They can find your case ID for you.",
+        "details": [
+          "Email: {{email}}",
+          "Phone: {{phone}}"
+        ],
+        "suggestions": []
+      },
+      "fileComplaint": {
+        "triggers": [
+          "file",
+          "lodge",
+          "register",
+          "submit",
+          "raise a complaint",
+          "new complaint",
+          "how do i complain",
+          "make a complaint"
+        ],
+        "text": "Complaints reach AICTE through the Public Grievance Redressal Cell, the Regulation Bureau or your Regional Office. Whichever office receives it, the case is registered here with a case ID so every bureau sees it.",
+        "details": [
+          "Students, parents, faculty and the public can complain.",
+          "Name the institution as you know it. Short forms and spelling variations are matched to the right college.",
+          "Keep the case ID you receive. You need it to track the case."
+        ],
+        "suggestions": [
+          "How long does disposal take?",
+          "Which bureaus are connected?"
+        ]
+      },
+      "about": {
+        "triggers": [
+          "samanvay",
+          "what is this",
+          "about samanvay",
+          "about this system",
+          "what does this system do",
+          "purpose",
+          "what do you do"
+        ],
+        "text": "Samanvay is AICTE's complaint monitoring system. It brings complaints from every bureau into one place, notices when two bureaus are working on the same institution, and helps them coordinate.",
+        "details": [],
+        "suggestions": [
+          "How are overlapping cases found?",
+          "Which bureaus are connected?"
+        ]
+      },
+      "overlap": {
+        "triggers": [
+          "overlap",
+          "overlapping",
+          "duplicate",
+          "same complaint",
+          "two bureau",
+          "different bureau",
+          "coordination",
+          "coordinate"
+        ],
+        "text": "When a new complaint arrives, the system looks for open cases about the same institution in other bureaus. It compares what the complaints mean, their category and their dates. If they look related, officials see \"Potential Overlapping Cases · Coordination Required\".",
+        "details": [
+          "\"College is collecting extra donation\" and \"Students forced to pay beyond approved fees\" are recognised as the same issue.",
+          "Officials can then link the cases, choose a lead bureau and share notes."
+        ],
+        "suggestions": [
+          "Why were two cases linked?",
+          "Does the AI close cases on its own?"
+        ]
+      },
+      "explainMatch": {
+        "triggers": [
+          "reason",
+          "explain",
+          "linked",
+          "match",
+          "matching",
+          "similar",
+          "spelling",
+          "abbreviation",
+          "short form"
+        ],
+        "text": "Every alert states why the cases were linked, so an official can verify it before acting. A typical explanation reads:",
+        "details": [
+          "Same institution (AICTE Permanent ID)",
+          "Same category: Fees",
+          "78% similar complaint text",
+          "Raised 6 days apart"
+        ],
+        "suggestions": [
+          "How accurate is the matching?",
+          "Is SVIT the same as Swami Vivekanand Inst of Tech?"
+        ]
+      },
+      "automation": {
+        "triggers": [
+          "automatic",
+          "automatically",
+          "on its own",
+          "merge",
+          "ai decide",
+          "who decide",
+          "decision",
+          "replace officer"
+        ],
+        "text": "The system only suggests links. An authorised official reviews every alert and decides what happens. Nothing is closed or merged automatically.",
+        "details": [],
+        "suggestions": [
+          "How accurate is the matching?",
+          "Who can see my complaint?"
+        ]
+      },
+      "accuracy": {
+        "triggers": [
+          "accuracy",
+          "accurate",
+          "how accurate",
+          "precision",
+          "recall",
+          "reliable",
+          "how good",
+          "mistake",
+          "wrong"
+        ],
+        "text": "Matching quality is measured on a labelled test set of case pairs, so the numbers can be checked.",
+        "details": [
+          "Precision: {{precision}} of flagged pairs were real overlaps",
+          "Recall: {{recall}} of real overlaps were flagged",
+          "Every suggestion is still reviewed by an official."
+        ],
+        "suggestions": []
+      },
+      "privacy": {
+        "triggers": [
+          "privacy",
+          "private",
+          "my data",
+          "who can see",
+          "visible",
+          "security",
+          "secure",
+          "access",
+          "confidential",
+          "audit"
+        ],
+        "text": "Officials see only what their role allows: Regulation Bureau, PGRC, Regional Office or Senior Management. Every view and action is recorded in an audit trail.",
+        "details": [
+          "On the public tracker you see the status, the bureau handling your case and the expected date.",
+          "Notes exchanged between bureaus are visible only to officials."
+        ],
+        "suggestions": []
+      },
+      "bureaus": {
+        "triggers": [
+          "bureau",
+          "rb",
+          "pgrc",
+          "regulation bureau",
+          "grievance cell",
+          "regional office",
+          "which office",
+          "connected"
+        ],
+        "text": "Four groups work from the same records:",
+        "details": [
+          "Regulation Bureau (RB): approvals, compliance and regulatory action",
+          "Public Grievance Redressal Cell (PGRC): grievances from students, faculty and the public",
+          "Regional Offices: field verification and follow-up",
+          "Senior Management: oversight across bureaus"
+        ],
+        "suggestions": []
+      },
+      "timelines": {
+        "triggers": [
+          "how long",
+          "timeline",
+          "deadline",
+          "sla",
+          "delay",
+          "delayed",
+          "late",
+          "escalation",
+          "escalate",
+          "disposal",
+          "days"
+        ],
+        "text": "Each case gets an expected disposal date when it is registered. Officers get reminders before the date, and cases that pass it are escalated to senior officials.",
+        "details": [
+          "The tracker shows the expected disposal date for your case."
+        ],
+        "suggestions": [
+          "Track my complaint"
+        ]
+      },
+      "contact": {
+        "triggers": [
+          "contact",
+          "helpline",
+          "helpdesk",
+          "help desk",
+          "phone",
+          "email",
+          "call",
+          "address",
+          "speak to someone"
+        ],
+        "text": "You can reach the AICTE helpdesk here:",
+        "details": [
+          "Email: {{email}}",
+          "Phone: {{phone}}",
+          "Address: {{address}}"
+        ],
+        "suggestions": []
+      },
+      "officerLogin": {
+        "triggers": [
+          "officer",
+          "login",
+          "log in",
+          "sign in",
+          "official",
+          "staff"
+        ],
+        "text": "Authorised AICTE officials sign in to see cases, overlap alerts and reports for their bureau.",
+        "details": [],
+        "suggestions": []
+      },
+      "greeting": {
+        "triggers": [
+          "hi",
+          "hello",
+          "hey",
+          "namaste",
+          "good morning",
+          "good afternoon",
+          "good evening"
+        ],
+        "text": "Namaste! I am the Samanvay assistant. I can check a complaint status, explain how bureaus coordinate, and tell you how your data is handled.",
+        "details": [],
+        "suggestions": []
+      },
+      "thanks": {
+        "triggers": [
+          "thank",
+          "thank you",
+          "dhanyavad",
+          "shukriya"
+        ],
+        "text": "Happy to help. Ask me anything else about your complaint or how the system works.",
+        "details": [],
+        "suggestions": []
+      }
+    }
+  }
+}

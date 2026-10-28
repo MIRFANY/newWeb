@@ -1,0 +1,48 @@
+/* Tracker states. Base tracker layout lives in components/public/Public.css. */
+
+.status-pill.in-process {
+    background: #dceaff;
+    color: #2364c5;
+}
+
+.status-pill.disposed {
+    background: #ddf7e6;
+    color: #12763a;
+}
+
+.status-pill.transferred {
+    background: #eee6ff;
+    color: #6a35c4;
+}
+
+.status-pill.escalated {
+    background: #fde3e1;
+    color: #b42318;
+}
+
+.tracker-card ol.progress-list {
+    list-style: none;
+    padding: 0;
+}
+
+.progress-item.current>span {
+    background: var(--saffron);
+}
+
+.tracker-not-found {
+    color: var(--muted);
+}
+
+.tracker-not-found svg {
+    color: var(--saffron);
+}
+
+.tracker-not-found h2 {
+    color: var(--ink);
+    margin: 14px 0 10px;
+}
+
+.tracker-not-found p {
+    line-height: 1.55;
+    margin: 0;
+}

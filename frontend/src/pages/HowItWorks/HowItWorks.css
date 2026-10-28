@@ -1,0 +1,184 @@
+/* How It Works page. Shared tokens (--navy, --muted, --line, ...) come from .public-site. */
+
+/* Seven-step timeline: horizontal on wide screens, vertical below 1100px. */
+
+.how-steps {
+    --step-gap: 14px;
+    --dot: 38px;
+    list-style: none;
+    margin: 48px 0 0;
+    padding: 34px 28px;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: var(--step-gap);
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 18px;
+    box-shadow: 0 10px 26px rgba(19, 45, 83, .05);
+}
+
+.how-step {
+    position: relative;
+    text-align: center;
+}
+
+.how-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    top: calc(var(--dot) / 2);
+    left: calc(50% + var(--dot) / 2 + 6px);
+    width: calc(100% + var(--step-gap) - var(--dot) - 12px);
+    height: 2px;
+    background: #c9d8ee;
+}
+
+.how-step-number {
+    width: var(--dot);
+    height: var(--dot);
+    margin: 0 auto 16px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--navy);
+    font-weight: 800;
+}
+
+.how-step h3 {
+    margin: 0 0 8px;
+    font-size: 16px;
+    line-height: 1.3;
+}
+
+.how-step p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Supporting capabilities */
+
+.how-supports-heading {
+    margin: 64px 0 22px;
+    font-size: clamp(24px, 2.4vw, 32px);
+    line-height: 1.2;
+}
+
+.how-supports {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+
+.how-support {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 22px;
+    background: #fff;
+    border: 1px solid var(--line);
+    border-radius: 14px;
+    transition: transform .2s ease, box-shadow .2s ease, border-color .2s ease;
+}
+
+.how-support:hover {
+    transform: translateY(-4px);
+    border-color: #acc3e2;
+    box-shadow: 0 14px 28px rgba(19, 45, 83, .1);
+}
+
+.how-support-icon {
+    width: 44px;
+    height: 44px;
+    flex: none;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    color: #2764d2;
+    background: #e1edff;
+}
+
+.how-support h3 {
+    margin: 2px 0 6px;
+    font-size: 17px;
+}
+
+.how-support p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+/* Bureaus that share the same record */
+
+.how-chain {
+    margin-top: 48px;
+    padding: 20px 28px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 12px 16px;
+    color: #fff;
+    background: var(--navy);
+    border-radius: 14px;
+    font-weight: 700;
+}
+
+.how-chain span {
+    padding: 8px 14px;
+    border: 1px solid rgba(255, 255, 255, .22);
+    border-radius: 999px;
+    background: rgba(255, 255, 255, .08);
+}
+
+.how-chain b {
+    color: #f0a52e;
+}
+
+@media (max-width: 1100px) {
+    .how-steps {
+        grid-template-columns: 1fr;
+        --step-gap: 22px;
+        padding: 28px;
+    }
+
+    .how-step {
+        display: grid;
+        grid-template-columns: var(--dot) 1fr;
+        column-gap: 18px;
+        text-align: left;
+    }
+
+    .how-step-number {
+        grid-row: span 2;
+        margin: 0;
+    }
+
+    .how-step h3 {
+        margin-top: 8px;
+    }
+
+    .how-step:not(:last-child)::after {
+        top: calc(var(--dot) + 6px);
+        left: calc(var(--dot) / 2 - 1px);
+        width: 2px;
+        height: calc(100% + var(--step-gap) - var(--dot) - 12px);
+    }
+
+    .how-supports {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 760px) {
+    .how-steps {
+        padding: 22px 18px;
+    }
+
+    .how-supports {
+        grid-template-columns: 1fr;
+    }
+}
